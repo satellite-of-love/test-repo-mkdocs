@@ -1,0 +1,39 @@
+site_name: Atomist Mkdocs Site Seed
+site_description: Documentation for Something
+site_author: The Atomist Team
+repo_name: GitHub
+repo_url: https://github.com/atomist-seeds/mkdocs-site
+edit_uri: edit/master/docs/
+copyright: "&copy; 2018 Atomist, Inc."
+extra:
+  main_site_url: https://atomist.com/
+  social:
+    - type: github
+      link: https://github.com/atomist
+theme:
+  name: material
+  favicon: "img/favicon.ico"
+  logo: img/atomist-developer-docs-logo.png
+  palette:
+    primary: white
+    accent: teal
+  custom_dir: "theme"
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - markdown_include.include:
+      base_path: "common"
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: false
+  - smarty
+nav:
+  - Introduction: index.md
+  - Quick Start: quick-start.md
+  - Developer Guide:
+      - What you can do: developer/index.md
+      - Architecture: developer/architecture.md
+      - Glossary: developer/glossary.md
+      - Troubleshooting: developer/troubleshoot.md
+  - Support: support.md
