@@ -13,10 +13,7 @@ The documentation is generated from markdown using [MkDocs][mkdocs].
 ## Editing
 
 Much of the documentation is hand-generated, so you can feel free to
-edit.  We try to adhere to
-the [Google Developer Documentation Style Guide][doc-style].
-See [below][build-serve] for instructions on how to test your changes
-locally.
+edit.
 
 *You are not required to test your changes locally in order to contribute.* Edit right on GitHub,
 and let the build take care of it.
